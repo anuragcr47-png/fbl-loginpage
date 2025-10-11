@@ -1,0 +1,76 @@
+.btn1{
+  position: fixed; /* Positions the container relative to the viewport */
+  top: 0;          /* Aligns the container to the top edge */
+  right: 0;        /* Aligns the container to the right edge */
+  display: flex;   /* Enables flexbox for linear arrangement of buttons */
+  gap: 15px;       /* Adds space between the buttons */
+  padding: 10px;   
+}
+.optn1{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 50px;
+    position: relative;
+}
+.btn2{
+    left: 3px;
+    display: flex;
+    gap: 35px;
+    margin-left: 80px;
+
+}
+.pra1{
+  margin-left: 90px;
+  margin-top: 100px;
+    
+}
+.image1{
+  float: right;
+  position: relative;
+  bottom: 450px;  
+  right: 20px;   
+}
+.navbar{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-item {
+  position: relative;
+}
+.nav-item a {
+  text-decoration: none;
+  color: hwb(0 6% 93% / 0.882);
+  padding: 4px;
+  display: block;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #efeaea;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  box-shadow: 0 2px 5px rgba(196, 5, 5, 0.1);
+}
+
+.dropdown li a {
+  padding: 10px;
+  display: block;
+  color: #333;
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+}
+
